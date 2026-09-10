@@ -52,5 +52,5 @@ Nach Beantwortung der Fragen aktualisierst du eigenständig alle Steuerungs- und
 - build.sh mit dem personalisierten Ausgabedateinamen versehen (z. B. 02_export/Bachelorarbeit_[Nachname].docx).
 - Nächtlichen Cronjob zur Sicherung einrichten (./scripts/setup_nightly_cron.sh).
 
-Beginne JETZT mit der Vorbereitung (Schritt A) und stelle mir direkt im Anschluss die Fragen aus Block 1!
+Arbeite alle Vorbereitungsschritte aus Schritt A vollständig autonom ab, ohne mich zu unterbrechen. Halte erst an, wenn du meine Eingaben benötigst, und stelle mir dann direkt die Fragen aus Block 1!
 ```
