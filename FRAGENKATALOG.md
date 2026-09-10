@@ -1,6 +1,6 @@
 # Onboarding-Fragenkatalog für deine wissenschaftliche Arbeit
 
-Dieser Fragenkatalog wird von deinem KI-Copilot (z. B. in Coder, Claude Code oder Cursor) schrittweise mit dir durchgegangen. Die KI passt anschließend das gesamte Repository, das Titelblatt, die Gliederung und das Projektbriefing automatisch an deine Angaben an.
+Dieser Fragenkatalog wird von deinem KI-Copilot (z. B. in Codex, Claude Code oder Antigravity) schrittweise mit dir durchgegangen. Die KI passt anschließend das gesamte Repository, das Titelblatt, die Gliederung und das Projektbriefing automatisch an deine Angaben an.
 
 ---
 

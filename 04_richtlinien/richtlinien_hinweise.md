@@ -3,7 +3,7 @@
 In diesem Verzeichnis sind die offiziellen Richtlinien der DHBW Ravensburg für den Studienbereich Wirtschaft hinterlegt:
 
 1. **`Richtlinien_wiss_Arbeiten_Wirtschaft_2.0.pdf`**: Die verbindliche Original-Richtlinie als PDF.
-2. **`Richtlinien_wiss_Arbeiten_Wirtschaft_2.0.md`**: Die Richtlinie als vollständiger Markdown-Volltext zur automatischen Überprüfung durch KI-Assistenten (Coder, Claude Code, Cursor).
+2. **`Richtlinien_wiss_Arbeiten_Wirtschaft_2.0.md`**: Die Richtlinie als vollständiger Markdown-Volltext zur automatischen Überprüfung durch KI-Assistenten (Codex, Claude Code, Antigravity).
 
 ### Wichtige Kernvorgaben der DHBW Wirtschaft 2.0:
 - **Schriftart & Schriftgrad:** Arial 11 pt oder Times New Roman 12 pt (im Fließtext)

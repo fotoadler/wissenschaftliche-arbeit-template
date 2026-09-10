@@ -49,6 +49,12 @@ Vor jeder Dateioperation musst du die Datei `00_steuerung/arbeitsregeln.md` sowi
    - Aktualisiere `00_steuerung/aenderungslog.md` (Datum, Datei, Änderung, Begründung).
    - Schließe deine Antwort mit 2–3 priorisierten nächsten Schritten ab.
 
+7. **Automatisches Führen des KI-Verzeichnisses (DHBW-Pflicht):**
+   - Nach jeder inhaltlichen, analytischen, methodischen oder codierenden Sitzung trägst du den Arbeitsschritt **automatisch** in `01_kapitel/09_ki_erklaerung.md` in die standardisierte Tabelle ein.
+   - Formuliere den Prompt dabei stets **normalisiert und generalisiert** (den methodischen Kern ohne flüchtige Zwischenbefehle).
+   - Halte fest: Kategorie (A: Themenfindung, B: Recherche & Quellen, C: Datenanalyse & Coding, D: Sprachliches Lektorat, E: Visualisierung), Werkzeug (z. B. Codex, Claude Code, Antigravity, ChatGPT, Claude, NotebookLM), generalisierter Prompt, betroffener Bereich/Datei und Art der menschlichen Kontrolle.
+   - So ist das KI-Verzeichnis von Tag 1 an lückenlos, DHBW-konform und ohne manuellen Aufwand vollständig gepflegt.
+
 ---
 
 ## 3. Standard-Befehle

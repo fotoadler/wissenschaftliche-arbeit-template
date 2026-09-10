@@ -1,6 +1,6 @@
 # Master-Prompt: Interaktives Onboarding & Lokale Einrichtung
 
-> **Verwendung:** Diesen Prompt kopieren und in **Coder**, **Claude Code**, **Cursor** oder ein beliebiges LLM mit Dateizugriff einfügen, nachdem das Repository geklont oder geöffnet wurde.
+> **Verwendung:** Diesen Prompt kopieren und in **Codex**, **Claude Code**, **Antigravity** oder ein beliebiges LLM mit Dateizugriff einfügen, nachdem das Repository geklont oder geöffnet wurde.
 
 ---
 
@@ -42,12 +42,13 @@ Stelle mir direkt im Anschluss an die Vorbereitung die Fragen aus FRAGENKATALOG.
 - Block 4: Methodik & Datenbasis (Untersuchungsdesign, qualitative/quantitative Methodik, Stichprobe oder theoretische Literaturanalyse)
 - Block 5: Formalia & Git (Gewünschte Zitierweise nach DGPs/APA/Harvard, eigene GitHub-Repo-URL für das Remote-Backup)
 
-SCHRITT C: AUTOMATISCHE PERSONALISIERUNG DES PROJEKTS
+SCHRITT C: AUTOMATISCHE PERSONALISIERUNG & DOKUMENTATION
 Nach Beantwortung der Fragen aktualisierst du eigenständig alle Steuerungs- und Kapiteldateien:
 - 00_steuerung/projektbriefing.md mit allen Daten und der geschärften Forschungsfrage befüllen.
 - 01_kapitel/00_titelblatt.md mit Titel, Name, Matrikelnummer und Betreuern personalisieren.
 - 01_kapitel/00a_sperrvermerk.md (aktivieren mit Unternehmensangaben oder neutralisieren).
 - 01_kapitel/01_einleitung.md mit der konkreten Problemstellung und den Forschungsfragen initialisieren.
+- 01_kapitel/09_ki_erklaerung.md: Initialisiere das KI-Verzeichnis und führe ab sofort automatisch jeden Prompt normalisiert und generalisiert in der Tabelle mit.
 - build.sh mit dem personalisierten Ausgabedateinamen versehen (z. B. 02_export/Bachelorarbeit_[Nachname].docx).
 - Nächtlichen Cronjob zur Sicherung einrichten (./scripts/setup_nightly_cron.sh).
 

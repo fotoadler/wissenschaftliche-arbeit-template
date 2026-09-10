@@ -46,10 +46,11 @@ Diese Regeln gelten verbindlich für alle KI-Assistenten und den Verfasser. Sie 
 
 ---
 
-## 4. Transparenz & Dokumentation (Traceability)
+## 4. Transparenz, Dokumentation & KI-Verzeichnis (Traceability)
 
 Nach jeder substanziellen Bearbeitungssitzung muss die KI automatisch:
 
-1. **[offene_punkte.md](file:///Users/chris/Documents/KI%20Seminar/wissenschaftliche-arbeit-template/00_steuerung/offene_punkte.md) aktualisieren:** Status bestehender Aufgaben anpassen, neue Aufgaben ergänzen.
-2. **[aenderungslog.md](file:///Users/chris/Documents/KI%20Seminar/wissenschaftliche-arbeit-template/00_steuerung/aenderungslog.md) aktualisieren:** Datum, Datei, konkrete Änderung und Begründung eintragen.
-3. **Nächste Schritte benennen:** Dem Benutzer am Ende jeder Antwort 2–3 konkrete, priorisierte nächste Schritte vorschlagen.
+1. **[01_kapitel/09_ki_erklaerung.md](file:///Users/chris/Documents/KI%20Seminar/wissenschaftliche-arbeit-template/01_kapitel/09_ki_erklaerung.md) aktualisieren:** Den Arbeitsschritt automatisch mit einem normalisierten/generalisierten Prompt, der Kategorie (A–E), dem Werkzeug (z. B. Codex, Claude Code, Antigravity, ChatGPT, Claude, NotebookLM), dem betroffenen Kapitel und der Art der menschlichen Kontrolle in die Tabelle eintragen.
+2. **[offene_punkte.md](file:///Users/chris/Documents/KI%20Seminar/wissenschaftliche-arbeit-template/00_steuerung/offene_punkte.md) aktualisieren:** Status bestehender Aufgaben anpassen, neue Aufgaben ergänzen.
+3. **[aenderungslog.md](file:///Users/chris/Documents/KI%20Seminar/wissenschaftliche-arbeit-template/00_steuerung/aenderungslog.md) aktualisieren:** Datum, Datei, konkrete Änderung und Begründung eintragen.
+4. **Nächste Schritte benennen:** Dem Benutzer am Ende jeder Antwort 2–3 konkrete, priorisierte nächste Schritte vorschlagen.

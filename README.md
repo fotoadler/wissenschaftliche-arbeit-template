@@ -1,6 +1,6 @@
 # Wissenschaftliche Arbeit: Modernes Markdown- & Git-Template
 
-Ein praxiserprobtes Template für Bachelorarbeiten, Projektarbeiten und Masterarbeiten. Entwickelt für die nahtlose Zusammenarbeit mit KI-Assistenten (Coder, Claude Code, Cursor) und eine robuste Build-Pipeline nach Word (.docx).
+Ein praxiserprobtes Template für Bachelorarbeiten, Projektarbeiten und Masterarbeiten. Entwickelt für die nahtlose Zusammenarbeit mit KI-Assistenten (Codex, Claude Code, Antigravity) und eine robuste Build-Pipeline nach Word (.docx).
 
 ---
 
@@ -46,7 +46,7 @@ cd <dein-projektname>
 ```
 
 ### Schritt 2: Onboarding mit deinem KI-Copilot starten
-Öffne das Projekt in deiner bevorzugten KI-Umgebung (z. B. **Coder**, **Claude Code** oder **Cursor**).
+Öffne das Projekt in deiner bevorzugten KI-Umgebung (z. B. **Codex**, **Claude Code** oder **Antigravity**).
 Übergib der KI den Onboarding-Prompt (siehe unten) oder sage:
 > *"Lies FRAGENKATALOG.md und gehe die Fragen Schritt für Schritt mit mir durch, um das Projekt einzurichten."*
 
