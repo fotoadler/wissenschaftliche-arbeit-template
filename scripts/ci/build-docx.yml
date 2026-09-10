@@ -1,0 +1,39 @@
+name: Build Word Document (.docx)
+
+on:
+  push:
+    paths:
+      - '01_kapitel/**'
+      - '05_assets/**'
+      - 'build.sh'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Pandoc und Abhängigkeiten installieren
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+          pip install lxml
+
+      - name: Dokument kompilieren
+        run: |
+          chmod +x build.sh
+          ./build.sh
+
+      - name: Word-Dokument als Artefakt hochladen
+        uses: actions/upload-artifact@v4
+        with:
+          name: Wissenschaftliche_Arbeit_DOCX
+          path: 02_export/Wissenschaftliche_Arbeit.docx
+          retention-days: 14

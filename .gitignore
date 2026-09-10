@@ -1,0 +1,27 @@
+# Build-Exporte (Word und PDF)
+02_export/*
+!02_export/.gitkeep
+!02_export/anhang/
+!02_export/anhang/**
+
+# Word Lock-Dateien und temporaere Dateien
+~$*
+*.tmp
+*.temp
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
+
+# Python Caches
+__pycache__/
+*.pyc
+
+# Logs
+scripts/sync.log
+*.log
+
+# Lokale IDE-Konfigurationen
+.claude/settings.local.json
+.vscode/
+.idea/
