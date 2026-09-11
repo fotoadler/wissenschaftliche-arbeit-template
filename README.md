@@ -39,11 +39,13 @@ Dieses Template trennt **Inhalt** und **Layout** konsequent:
 
 ## 2. Schnelleinstieg in 3 Schritten
 
-### Schritt 1: Repository klonen oder als Template nutzen
+### Schritt 1: Persönliche GitHub-Kopie anlegen
 ```bash
-git clone <dein-repo-url>
+git clone <deine-persönliche-repo-url>
 cd <dein-projektname>
 ```
+
+Erstelle vorher einen eigenen GitHub-Account, bestätige deine E-Mail-Adresse und verbinde GitHub mit deiner KI-Umgebung. Übernimm danach das öffentliche Template als private persönliche Kopie. Die KI arbeitet ausschließlich in deiner Kopie und pusht niemals direkt in das Dozenten-Template.
 
 ### Schritt 2: Onboarding mit deinem KI-Copilot starten
 Öffne das Projekt in deiner bevorzugten KI-Umgebung (z. B. **Codex**, **Claude Code** oder **Antigravity**).
@@ -113,7 +115,11 @@ Das fertige Word-Dokument findest du unter:
 
 Du musst keine komplexen Git-Befehle lernen.
 
-### Manuelles Backup mit einem Befehl:
+### Zwischen-Sicherung nach Logikbausteinen
+
+Die KI soll nach jedem abgeschlossenen, nachvollziehbaren Logikbaustein committen und zu deinem persönlichen Repository pushen. Du musst dafür keine Git-Befehle auswendig lernen.
+
+### Zusätzliches manuelles Backup mit einem Befehl:
 ```bash
 ./scripts/auto_sync.sh
 ```

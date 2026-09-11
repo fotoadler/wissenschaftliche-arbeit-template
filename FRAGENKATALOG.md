@@ -45,5 +45,5 @@ Dieser Fragenkatalog wird von deinem KI-Copilot (z. B. in Codex, Claude Code ode
 ---
 
 ### Block 6: Automatisierung & Backup
-15. **Git-Repository:** Hast du bereits ein GitHub-Repository angelegt, in das dieses Projekt gepusht werden soll?
-16. **Nacht-Backup:** Möchtest du, dass jede Nacht um 23:00 Uhr automatisch ein Backup committet und gepusht wird? (Wird durch `setup_nightly_cron.sh` automatisch eingerichtet).
+15. **GitHub-Verbindung:** Prüfe, ob GitHub verbunden ist und die persönliche Repository-URL automatisch erkannt wurde. Frage nur bei fehlender Erkennung nach der URL; niemals in das öffentliche Template pushen.
+16. **Nacht-Backup:** Möchtest du, dass zusätzlich jede Nacht um 23:00 Uhr ein Backup committet und gepusht wird? (Wird durch `setup_nightly_cron.sh` automatisch eingerichtet).

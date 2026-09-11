@@ -72,3 +72,16 @@ Vor jeder Dateioperation musst du die Datei `00_steuerung/arbeitsregeln.md` sowi
   ./scripts/setup_nightly_cron.sh
   ```
 
+## 4. Verbindliche Git-Sicherung nach Logikbausteinen
+
+Dieses Repository ist die persönliche Arbeitskopie des Studierenden. Das öffentliche Template ist nur die Ausgangsbasis und darf niemals als `origin` für eigene Arbeit verwendet werden.
+
+Nach jedem fertig bearbeiteten, in sich verständlichen Logikbaustein (z. B. ein Abschnitt, ein Quellenpaket, eine methodische Entscheidung oder ein abgeschlossener Build-/Formatierungsblock) sicherst du den Stand automatisch:
+
+1. Prüfe `git status`, den Diff und ob `origin` auf das persönliche Repository des Studierenden zeigt.
+2. Führe die für den Arbeitsblock passenden Prüfungen bzw. den Build aus.
+3. Füge nur die zu diesem Arbeitsblock gehörenden Dateien hinzu.
+4. Erzeuge einen kurzen, verständlichen Commit, z. B. `Kapitel 1: Forschungsfragen geschärft`.
+5. Pushe den Commit zu `origin` und prüfe anschließend, dass der Push erfolgreich war und der Arbeitsstand sauber ist.
+
+Nicht nach jedem einzelnen Satz committen, sondern nach abgeschlossenen, nachvollziehbaren Arbeitsblöcken. Vor einem Push niemals Zugangsdaten, Tokens oder andere Geheimnisse einchecken. Wenn GitHub nicht verbunden ist, der Push fehlschlägt oder `origin` nicht zum persönlichen Repository gehört, halte an, erkläre den konkreten Grund und tue nicht so, als wäre der Stand online gesichert. Das Nacht-Backup ist eine zusätzliche Sicherheitskopie und ersetzt diese Zwischen-Sicherungen nicht.
